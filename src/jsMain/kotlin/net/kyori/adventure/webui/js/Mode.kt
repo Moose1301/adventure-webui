@@ -7,6 +7,7 @@ public enum class Mode {
     LORE,
     HOLOGRAM,
     SERVER_LIST,
+    SCOREBOARD
     ;
 
     /** The mode as a HTML class. */

@@ -163,6 +163,7 @@
 #output-pre.mode-hologram > div.no-padding {
     padding: 0;
 }
+
 #output-pre.mode-lore {
     display: inline-flex;
     flex-direction: column;
@@ -286,4 +287,33 @@ input.placeholder-key:invalid {
     table.table td, table.table th {
         border-width: 0 0 1px;
     }
+}
+
+
+#output-pane.mode-scoreboard > #output-lines {
+    background-position: right center;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+#output-pre.mode-scoreboard {
+    display: inline-flex;
+    padding: 5px 10px;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0);
+}
+#output-pre.mode-scoreboard span {
+    text-shadow: none !important;
+}
+#output-pre.mode-scoreboard > div {
+    background-color: rgba(1, 1, 1, 0.4);
+    padding: 4px 7px 0;
+}
+#output-pre.mode-scoreboard > div.no-padding {
+    padding: 0;
 }

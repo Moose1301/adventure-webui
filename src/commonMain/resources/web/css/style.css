@@ -305,13 +305,13 @@ input.placeholder-key:invalid {
     align-items: center;
     line-height: 25px;
     text-align: left;
-    background-color: rgba(1, 1, 1, 0);
+    background-color: rgba(48, 48, 48, 0.4);
 }
 #output-pre.mode-scoreboard span {
     text-shadow: none !important;
 }
 #output-pre.mode-scoreboard > div {
-    background-color: rgba(1, 1, 1, 0.4);
+    background-color: rgba(48, 48, 48, 0.4);
     padding: 4px 7px 0;
 }
 #output-pre.mode-scoreboard > div.no-padding {
